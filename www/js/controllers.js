@@ -1,4 +1,4 @@
-angular.module('starter.controllers', [])
+angular.module('havas.controllers', [])
 
 .controller('AppCtrl', function($scope, $ionicModal, $timeout) {
 
@@ -41,16 +41,124 @@ angular.module('starter.controllers', [])
   };
 })
 
-.controller('PlaylistsCtrl', function($scope) {
-  $scope.playlists = [
-    { title: 'Reggae', id: 1 },
-    { title: 'Chill', id: 2 },
-    { title: 'Dubstep', id: 3 },
-    { title: 'Indie', id: 4 },
-    { title: 'Rap', id: 5 },
-    { title: 'Cowbell', id: 6 }
-  ];
-})
+.controller('MyStocksCtrl',  ['$scope',
+  function($scope) {
+      $scope.myStocksArray = [
+        {'ticker': "MSFT"},
+        {'ticker': "GOOG"},
+        {'ticker': "C"},
+        {'ticker': "T"},
+        {'ticker': "AAPL"},
+        {'ticker': "GE"},
+        {'ticker': "INTC"}
+      ];
+}])
 
-.controller('PlaylistCtrl', function($scope, $stateParams) {
-});
+.controller('StockCtrl', ['$scope', '$stateParams', '$window', 'stockDataService', 'dateService', 'chartDataService',
+    function($scope, $stateParams, $window, stockDataService, dateService, chartDataService) {
+      // this now uses our stockDataService in services.js
+      $scope.ticker = $stateParams.stockTicker;
+      $scope.chartView = 4;
+      $scope.currentDate = dateService.currentDate();
+      $scope.oneYearAgoDate = dateService.oneYearAgoDate();
+
+      console.log(dateService.currentDate());
+      console.log(dateService.oneYearAgoDate());
+
+      // don't get the stock data until the view is loaded.
+      $scope.$on("$ionicView.afterEnter", function() {
+        getPriceData();
+        getDetailedPriceData();
+        getChartData();
+      });
+
+      $scope.chartViewFunc = function(which) {
+        $scope.chartView = which;
+      };
+
+      function getPriceData() {
+        var promise = stockDataService.getPriceData($scope.ticker);
+        promise.then(function(data) {
+          console.log(data);
+          $scope.stockPriceData = data;
+        });
+      }
+
+      function getDetailedPriceData() {
+        var promise = stockDataService.getDetailedPriceData($scope.ticker);
+        promise.then(function(data) {
+          console.log(data);
+          $scope.stockDetailsData = data;
+        });
+      }
+
+      function getChartData() {
+        var promise = chartDataService.getHistoricalData($scope.ticker, $scope.oneYearAgoDate, $scope.currentDate);
+        promise.then(function(data) {
+          $scope.myData = JSON.parse(data)
+          .map(function(series) {
+    		        series.values = series.values.map(function(d) { return {x: d[0], y: d[1] }; });
+    		        return series;
+    	    });
+        });
+      }
+
+      var xTickFormat = function(d) {
+    		var dx = $scope.myData[0].values[d] && $scope.myData[0].values[d].x || 0;
+    		if (dx > 0) {
+          return d3.time.format("%b %d")(new Date(dx));
+    		}
+    		  return null;
+  	  };
+
+      var x2TickFormat = function(d) {
+        var dx = $scope.myData[0].values[d] && $scope.myData[0].values[d].x || 0;
+        return d3.time.format('%b %Y')(new Date(dx));
+      };
+
+      var y1TickFormat = function(d) {
+        return d3.format(',f')(d);
+      };
+
+      var y2TickFormat = function(d) {
+        return d3.format('s')(d);
+      };
+
+      var y3TickFormat = function(d) {
+        return d3.format(',.2s')(d);
+      };
+
+      var y4TickFormat = function(d) {
+        return d3.format(',.2s')(d);
+      };
+
+      var xValueFunction = function(d, i) {
+        return i;
+      };
+
+      var marginBottom = ($window.innerWidth / 100) * 10;
+
+      $scope.chartOptions = {
+        chartType: 'linePlusBarWithFocusChart',
+        data: 'myData',
+        margin: {top: 15, right: 40, bottom: marginBottom, left: 70},
+        interpolate: "cardinal",
+        useInteractiveGuideline: false,
+        yShowMaxMin: false,
+        tooltips: false,
+        showLegend: false,
+        useVoronoi: false,
+        xShowMaxMin: false,
+        xValue: xValueFunction,
+        xAxisTickFormat: xTickFormat,
+        x2AxisTickFormat: x2TickFormat,
+        y1AxisTickFormat: y1TickFormat,
+        y2AxisTickFormat: y2TickFormat,
+        y3AxisTickFormat: y3TickFormat,
+        y4AxisTickFormat: y4TickFormat,
+        transitionDuration: 500
+    	};
+
+
+      console.log($scope.chartOptions);
+}]);

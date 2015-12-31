@@ -1,0 +1,294 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"json",
+				"jsondata"
+			],
+			[
+				"stock",
+				"stockDataService"
+			],
+			[
+				"def",
+				"deferred"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"img",
+				"imgTag"
+			],
+			[
+				"im",
+				"imgTag"
+			],
+			[
+				"ex",
+				"exercises"
+			],
+			[
+				"copy",
+				"arrCopy"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 213.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 571.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/brentgray/Desktop/workspace/stocks/www/js/directives.js",
+		"/C/Users/brentgray/Desktop/workspace/stocks/www/css/style.css",
+		"/C/Users/brentgray/Desktop/workspace/stocks/www/index.html",
+		"/C/Users/brentgray/Desktop/workspace/stocks/www/templates/my-stocks.html",
+		"/C/Users/brentgray/Desktop/workspace/stocks/www/templates/stock.html",
+		"/C/Users/brentgray/Desktop/workspace/stocks/www/templates/menu.html",
+		"/C/Users/brentgray/Desktop/workspace/stocks/www/js/controllers.js",
+		"/C/Users/brentgray/Desktop/workspace/stocks/www/js/filters.js",
+		"/C/Users/brentgray/Desktop/workspace/stocks/www/js/services.js",
+		"/C/Users/brentgray/Desktop/workspace/stocks/www/js/app.js",
+		"/C/Users/brentgray/Desktop/workspace/stocks/config.xml",
+		"/C/Users/brentgray/Desktop/workspace/stocks/www/templates/playlist.html",
+		"/C/Users/brentgray/Desktop/ionictutorial/ionic-tutorial/conference/www/index.html",
+		"/C/Users/brentgray/Desktop/ionictutorial/ionic-tutorial/conference/www/js/controllers.js",
+		"/C/Users/brentgray/Desktop/ionictutorial/ionic-tutorial/conference/www/js/app.js",
+		"/C/Users/brentgray/Desktop/ionictutorial/ionic-tutorial/conference/www/templates/menu.html",
+		"/C/Users/brentgray/Desktop/ionictutorial/ionic-tutorial/conference/www/templates/sessions.html",
+		"/C/Users/brentgray/Desktop/ionictutorial/ionic-tutorial/conference/www/templates/session.html",
+		"/C/Users/brentgray/Desktop/ionictutorial/ionic-tutorial/conference/www/js/services.js",
+		"/C/Users/brentgray/Desktop/ionictutorial/ionic-tutorial/conference/config.xml",
+		"/C/Users/brentgray/ionictutorial/ionic-tutorial/conference/www/index.html",
+		"/C/Users/brentgray/ionictutorial/ionic-tutorial/conference/www/js/controllers.js",
+		"/C/Users/brentgray/ionictutorial/ionic-tutorial/conference/www/js/app.js",
+		"/C/Users/brentgray/ionictutorial/ionic-tutorial/conference/www/templates/sessions.html",
+		"/C/Users/brentgray/ionictutorial/ionic-tutorial/conference/www/js/services.js",
+		"/C/Users/brentgray/ionictutorial/ionic-tutorial/conference/www/templates/session.html",
+		"/C/Users/brentgray/workspace/havaschedule-cordova/havaschedule/platforms/android/res/values/strings.xml",
+		"/C/Users/brentgray/workspace/havaschedule-cordova/havaschedule/platforms/android/res/xml/config.xml",
+		"/C/Users/brentgray/Desktop/havaschedule-cordova/havaschedule/config.xml",
+		"/C/Users/brentgray/Downloads/cordova-tutorial-master/cordova-tutorial-master/starter-www/js/app.js",
+		"/C/Users/brentgray/Downloads/cordova-tutorial-master/cordova-tutorial-master/starter-www/index.html",
+		"/C/Users/brentgray/Downloads/cordova-tutorial-master/cordova-tutorial-master/starter-www/js/services/json/EmployeeService.js",
+		"/C/Users/brentgray/Desktop/havaschedule-cordova/havaschedule/platforms/android/project.properties",
+		"/C/Users/brentgray/Downloads/cordova-tutorial-master/cordova-tutorial-master/starter-www/js/services/websql/EmployeeService.js",
+		"/C/Users/brentgray/Downloads/cordova-tutorial-master/cordova-tutorial-master/starter-www/js/services/memory/EmployeeService.js",
+		"/C/Users/brentgray/Downloads/cordova-tutorial-master/cordova-tutorial-master/starter-www/js/services/localstorage/EmployeeService.js",
+		"/C/Users/brentgray/Desktop/havaschedule-cordova/havaschedule/www/index.html",
+		"/C/Users/brentgray/Desktop/test.c",
+		"/C/Users/brentgray/Desktop/Programming Competition Problems Bible/PClassic2013fStubs/SoldiersWages.java",
+		"/C/Users/brentgray/Downloads/Passwords1_Anonymous.java",
+		"/C/Users/brentgray/Desktop/Programming Competition Problems Bible/PClassic2013fStubs/WeirdRepeat.java",
+		"/C/Users/brentgray/Desktop/CIS197/assignments/hw2/pullTrendingArticles.js",
+		"/C/Users/brentgray/Desktop/CIS197/assignments/hw2/package.json",
+		"/C/Users/brentgray/AppData/Local/Temp/fz3temp-1/PeriodModel.php",
+		"/C/Users/brentgray/AppData/Local/Temp/fz3temp-1/TodoItem.php",
+		"/C/Users/brentgray/AppData/Local/Temp/fz3temp-1/BellScheduleModel.php",
+		"/C/Users/brentgray/AppData/Local/Temp/fz3temp-1/Todo 2.php",
+		"/C/Users/brentgray/AppData/Local/Temp/fz3temp-1/apicaller.php",
+		"/C/Users/brentgray/AppData/Local/Temp/fz3temp-1/todo.php",
+		"/C/Users/brentgray/AppData/Local/Temp/fz3temp-1/index.php",
+		"/C/Users/brentgray/AppData/Local/Temp/fz3temp-1/utils.php",
+		"/C/Users/brentgray/AppData/Local/Temp/fz3temp-1/.htaccess",
+		"/C/Users/brentgray/AppData/Local/Temp/fz3temp-1/index 2.php",
+		"/C/Users/brentgray/AppData/Local/Temp/fz3temp-1/TodoItem 2.php",
+		"/C/Users/brentgray/AppData/Local/Temp/fz3temp-1/Todo 3.php",
+		"/C/Users/brentgray/AppData/Local/Temp/fz3temp-1/Todo.php",
+		"/C/Users/brentgray/AppData/Local/Temp/fz3temp-1/todo 2.php",
+		"/C/Users/brentgray/AppData/Local/Temp/fz3temp-1/README",
+		"/C/Users/brentgray/Desktop/tictactoe-jquery/index.html",
+		"/C/Users/brentgray/Desktop/tictactoe-jquery/styles.css",
+		"/C/Users/brentgray/Desktop/tictactoe-jquery/index1.html",
+		"/C/Users/brentgray/Google Drive/courses (Drive)/WebDev/JS 1/tictactoe/tictactoe-gray-webdev-day4/styles.css",
+		"/C/Users/brentgray/Google Drive/courses (Drive)/WebDev/JS 1/tictactoe/tictactoe-gray-webdev-day4/index.html",
+		"/C/Users/brentgray/Google Drive/courses (Drive)/WebDev/JS 1/tictactoe/tictactoe-gray-webdev-day4/scripts.js",
+		"/C/Users/brentgray/Google Drive/courses (Drive)/CS 1/CS1 Planning/Lesson Plans/html5 gaming tictactoe/tictactoe-javascript/tictactoe-javascript/tictactoeV3.html",
+		"/C/Users/brentgray/Documents/Arduino/libraries/readme.txt",
+		"/C/Users/brentgray/Google Drive/courses (Drive)/CS 1/CS1 Planning/Lesson Plans/html5 gaming tictactoe/tictactoe-javascript/tictactoe-javascript/tictactoe.css",
+		"/C/Users/brentgray/Google Drive/courses (Drive)/CS 1/CS1 Planning/Lesson Plans/html5 gaming tictactoe/tictactoe-image-overlay-template/tictactoe-image-overlay-template/tictactoeV2.html",
+		"/C/Users/brentgray/Google Drive/courses (Drive)/CS 1/CS1 Planning/Lesson Plans/html5 gaming tictactoe/tictactoe-image-overlay-template/tictactoeV2.gdoc",
+		"/C/Users/brentgray/Google Drive/courses (Drive)/WebDev/JS 1/tictactoe/tictactoe-gray-webdev-day3/scripts.js",
+		"/C/Users/brentgray/Google Drive/courses (Drive)/WebDev/JS 1/tictactoe/tictactoe-gray-webdev-day3/index.html",
+		"/C/Users/brentgray/Desktop/EscapeVelocity.java",
+		"/C/Users/brentgray/Google Drive/courses (Drive)/CS-CLUBS/PClassic/Programming Competition Problems Bible/PClassic2013fStubs/PlanetaryProjectiles.java",
+		"/C/Users/brentgray/Google Drive/courses (Drive)/CS-CLUBS/PClassic/Programming Competition Problems Bible/PClassic2013fStubs/SoldiersWages.java",
+		"/C/Users/brentgray/Desktop/EscapeVelocityIN.txt",
+		"/C/Users/brentgray/Desktop/CIS197/assignments/hw1/HW1/exercises.js",
+		"/C/Users/brentgray/Desktop/CIS197/assignments/hw1/HW1/testHW1.js",
+		"/C/Users/brentgray/Desktop/CIS197/assignments/hw1/HW1/.eslintrc",
+		"/C/Users/brentgray/Google Drive/courses (Drive)/CS-CLUBS/PClassic/Programming Competition Problems Bible/PClassic2013fStubs/PalindromicPrime.java",
+		"/C/Users/brentgray/Desktop/CIS197/assignments/hw1/HW1/space-after-function.js",
+		"/C/Users/brentgray/Desktop/CIS197/assignments/hw1/HW1/no-tabs.js",
+		"/C/Users/brentgray/Desktop/CIS197/assignments/hw1/HW1/package.json",
+		"/C/Users/brentgray/Desktop/CIS197/assignments/hw1/CIS197_HW1/HW1/testHW1.js",
+		"/C/Users/brentgray/Desktop/webdev course outline.txt",
+		"/C/Users/brentgray/Desktop/Learning and Project Goals"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"}})",
+			"({{",
+			"script"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"}}",
+			"{{"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 48.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ionic.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 159.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
